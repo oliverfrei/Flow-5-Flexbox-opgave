@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.headersection {
+    background: lightgrey;
+    padding: 15px;
+    margin: 15px;
+    border: 2px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    background: lightgreen;
+    border: 2px solid black;
+    margin-right: auto;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.nav {
+    background: lightgreen;
+    border: 2px solid black;
+    margin-left: auto;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.splash {
+    background: lightgrey;
+    padding: 15px;
+    margin: 15px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.tilbudsbox {
+    background: lightgrey;
+    padding: 15px;
+    margin: 15px;
+    border: 2px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tilbud1 {
+    background: lightgreen;
+    border: 2px solid black;
+    margin-right: auto;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+.tilbud2 {
+    background: lightgreen;
+    border: 2px solid black;
+    margin: auto;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 20%;
+}
+.tilbud3 {
+    background: lightgreen;
+    border: 2px solid black;
+    padding: 15px;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 20%;
+}
+
+.proces {
+    background: lightgrey;
+    padding: 15px;
+    margin: 15px;
+    border: 2px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.footer {
+    background: lightgrey;
+    padding: 15px;
+    margin: 15px;
+    border: 2px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+@media screen and (min-width: 791px) {
+    .nav {
+        width: 40%;
+    }
+
+    .tilbudsbox {
+        flex-direction: row-reverse;
+    }
+    
+    
+
+    .splash,
+    .proces {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap; 
+        width: 40%;
+        height: 200px;
+    }
+    
+}
